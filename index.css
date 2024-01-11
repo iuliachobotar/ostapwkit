@@ -491,3 +491,65 @@ line-height: 26.908px;
     gap: 20px;
     justify-content: center;
 }
+.name_button_bottom{
+    color: #889099;
+text-align: center;
+font-size: 18px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+padding: 15px 30px;
+background: none;
+border-radius: 2px;
+border: 1px solid var(--c-4-cbd-2, #C4CBD2);
+cursor: pointer;
+}
+.name_button_bot{
+    display: flex;
+    justify-content: center;
+    margin-top: 35px;
+}
+/* end */
+
+
+/* communication */
+
+.communication{
+    margin-top: 80px;
+}
+.communication_pos{
+    display: flex;
+    justify-content: center;
+    background: #fff;
+    border-radius: 12px;
+}
+.communication_info{
+    margin: 68px 81px 73px 71px;
+}
+.communication_title{
+    color: #373D43;
+font-size: 38px;
+font-style: normal;
+font-weight: 400;
+line-height: 45.6px;
+margin-bottom: 70px;
+}
+
+.communication_text {
+    color: #889099;
+font-size: 18px;
+font-style: normal;
+font-weight: 400;
+line-height: 26.908px;
+}
+
+
+
+
+
+/* end */
+
+/* questions */
+.questions{
+    margin-top: 65px;
+}
