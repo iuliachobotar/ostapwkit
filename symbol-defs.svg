@@ -25,5 +25,8 @@
 <symbol id="icon-Vector-7" viewBox="0 0 12 20">
 <path stroke-linejoin="miter" stroke-linecap="butt" stroke-miterlimit="4" stroke-width="2.2222" d="M1.111 1.111l8.889 8.345-8.889 9.433"></path>
 </symbol>
+<symbol id="icon-Union" viewBox="0 0 20 20">
+<path fill="#c4cbd2" style="fill: var(--color1, #c4cbd2)" d="M2.020 0l-2.020 2.020 7.77 7.77-7.576 7.576 2.020 2.020 7.576-7.577 7.382 7.382 2.020-2.020-7.382-7.382 7.576-7.576-2.020-2.020-7.576 7.576-7.77-7.77z"></path>
+</symbol>
 </defs>
 </svg>

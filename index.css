@@ -43,19 +43,21 @@ li {
     padding-left: 16%;
     padding-right: 16%;
 }
-.header_info{
-    color: #373D43;
-font-size: 18px;
-font-style: normal;
-font-weight: 400;
-line-height: normal;
-}
-.header_number{
+
+.header_info {
     color: #373D43;
     font-size: 18px;
     font-style: normal;
     font-weight: 400;
-    line-height: normal; 
+    line-height: normal;
+}
+
+.header_number {
+    color: #373D43;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
 }
 
 .header_connection {
@@ -306,14 +308,14 @@ line-height: normal;
 /* stages */
 .stages {
     margin-top: 90px;
-    
+
 }
 
 .decision_stage {
     margin-bottom: 50px;
 }
 
-.stages_list{
+.stages_list {
     display: flex;
     gap: 20px;
 
@@ -384,34 +386,37 @@ line-height: normal;
     justify-content: center;
     border-radius: 12px;
 }
-.stages_item_text{
+
+.stages_item_text {
     color: #889099;
-text-align: center;
-font-size: 18px;
-font-style: normal;
-font-weight: 400;
-line-height: 26.908px;
-padding: 0 60px;
+    text-align: center;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 26.908px;
+    padding: 0 60px;
 }
 
-.stages_arrow_svg{
+.stages_arrow_svg {
     width: 16px;
     height: 16px;
 }
 
-.stages_pos{
+.stages_pos {
     /* position: absolute; */
     display: flex;
     align-items: center;
     flex-direction: column;
 }
-.stages_circle{
+
+.stages_circle {
     position: relative;
     display: flex;
-    
+
 
 }
-.stages_arrow{
+
+.stages_arrow {
     display: flex;
     align-items: center;
     justify-content: center;
@@ -420,7 +425,8 @@ padding: 0 60px;
     height: 65px;
     border-radius: 50%;
 }
-.stages_arrow_sec{
+
+.stages_arrow_sec {
     display: flex;
     align-items: center;
     justify-content: center;
@@ -433,137 +439,224 @@ padding: 0 60px;
 /* end */
 
 /* name */
-.name{
-    margin-top: 80px; 
+.name {
+    margin-top: 80px;
 }
-.name_categories{
+
+.name_categories {
     color: #373D43;
-text-align: center;
-font-size: 38px;
-font-style: normal;
-font-weight: 400;
-line-height: 45.6px;
-margin-bottom: 50px;
+    text-align: center;
+    font-size: 38px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 45.6px;
+    margin-bottom: 50px;
 }
-.name_text{
+
+.name_text {
     color: #889099;
-text-align: center;
-font-size: 18px;
-font-style: normal;
-font-weight: 400;
-line-height: 149.487%; /* 26.908px */
+    text-align: center;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 149.487%;
+    /* 26.908px */
 }
-.name_button{
+
+.name_button {
     color: #373D43;
-text-align: center;
-font-size: 18px;
-font-style: normal;
-font-weight: 400;
-line-height: 34.2px;
-cursor: pointer;
+    text-align: center;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 34.2px;
+    cursor: pointer;
 }
-.name_list{
+
+.name_list {
     margin: 30px 0px;
     display: flex;
     justify-content: center;
     gap: 30px;
 }
-.name_card{
+
+.name_card {
     width: 310px;
     border-radius: 0px 0px 4px 4px;
     background: #FFF;
 }
-.name_rank{
+
+.name_rank {
     color: #C4CBD2;
-font-size: 14px;
-font-style: normal;
-font-weight: 400;
-line-height: 20.928px;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 20.928px;
 }
-.name_rank_text{
+
+.name_rank_text {
     color: #373D43;
-font-size: 14px;
-font-style: normal;
-font-weight: 400;
-line-height: normal;
-margin-top: 20px;
-margin-bottom: 18px;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    margin-top: 20px;
+    margin-bottom: 18px;
 }
-.name_prace{
+
+.name_prace {
     color: #373D43;
-font-size: 18px;
-font-style: normal;
-font-weight: 400;
-line-height: 26.908px;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 26.908px;
 }
-.name_product_text{
+
+.name_product_text {
     padding: 25px 21px;
 
 }
-.name_product{
+
+.name_product {
     display: flex;
     gap: 20px;
     justify-content: center;
 }
-.name_button_bottom{
+
+.name_button_bottom {
     color: #889099;
-text-align: center;
-font-size: 18px;
-font-style: normal;
-font-weight: 400;
-line-height: normal;
-padding: 15px 30px;
-background: none;
-border-radius: 2px;
-border: 1px solid var(--c-4-cbd-2, #C4CBD2);
-cursor: pointer;
+    text-align: center;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    padding: 15px 30px;
+    background: none;
+    border-radius: 2px;
+    border: 1px solid var(--c-4-cbd-2, #C4CBD2);
+    cursor: pointer;
 }
-.name_button_bot{
+
+.name_button_bot {
     display: flex;
     justify-content: center;
     margin-top: 35px;
 }
+
 /* end */
 
 
 /* communication */
 
-.communication{
+.communication {
     margin-top: 80px;
 }
-.communication_pos{
+
+.communication_pos {
     display: flex;
     justify-content: center;
     background: #fff;
     border-radius: 12px;
 }
-.communication_info{
+
+.communication_info {
     margin: 68px 81px 73px 71px;
 }
-.communication_title{
+
+.communication_title {
     color: #373D43;
-font-size: 38px;
-font-style: normal;
-font-weight: 400;
-line-height: 45.6px;
-margin-bottom: 70px;
+    font-size: 38px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 45.6px;
+    margin-bottom: 70px;
 }
 
 .communication_text {
+    color: #889099;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 26.908px;
+}
+
+.communication_input {
+    padding: 21px 0 17px 18px;
+    width: 100%;
+    color: #889099;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 26.908px;
+    border-radius: 6px;
+background: #EDF1F7;
+border: none;
+outline: none;
+
+}
+
+.communication_input_cross{
+    width: 13.571px;
+height: 13.571px;
+}
+.communication_name{
+    position: relative;
+}
+.communication_email{
+    position: relative;
+}
+.communication_cross_pos{
+    position: absolute;
+    top: 30%;
+    right: 18.5px;
+}
+.communication_inputs{
+    margin-top: 33px;
+}
+.communication_inputs .communication_div{
+margin-bottom: 20px;
+}
+::placeholder{
+    color: #889099;
+}
+
+.communication_input_check {
+    width: 20px;
+height: 20px;
+}
+
+.communication_check {
     color: #889099;
 font-size: 18px;
 font-style: normal;
 font-weight: 400;
 line-height: 26.908px;
 }
-
-
-
+.communication_checkbox{
+    display: flex;
+    margin-bottom: 20px;
+}
+.communication_checkbox div:not(:last-child) {
+    margin-right: 10px;
+}
+.communication_button{
+    color: #373D43;
+text-align: center;
+font-size: 18px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+border-radius: 6px;
+background: var(--fbdd-37, #FBDD37);
+border: none;
+width: 100%;
+padding: 20px 0;
+}
 
 
 /* end */
 
 /* questions */
-.questions{
+.questions {
     margin-top: 65px;
 }
