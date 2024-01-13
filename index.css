@@ -43,6 +43,20 @@ li {
     padding-left: 16%;
     padding-right: 16%;
 }
+.header_info{
+    color: #373D43;
+font-size: 18px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+}
+.header_number{
+    color: #373D43;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal; 
+}
 
 .header_connection {
     display: flex;
