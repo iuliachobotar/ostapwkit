@@ -38,10 +38,10 @@ li {
 }
 
 .container {
-    margin-right: auto;
-    margin-left: auto;
-    padding-left: 16%;
-    padding-right: 16%;
+    padding-right: auto;
+    padding-left: auto;
+    margin-left: 16%;
+    margin-right: 16%;
 }
 
 .header_info {
@@ -554,15 +554,16 @@ li {
 
 .communication_pos {
     display: flex;
-    justify-content: center;
     background: #fff;
     border-radius: 12px;
 }
-
-.communication_info {
-    margin: 68px 81px 73px 71px;
+ .communication_info {
+    padding: 65px;
 }
-
+.communication_photo{
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+}
 .communication_title {
     color: #373D43;
     font-size: 38px;
@@ -754,33 +755,41 @@ font-weight: 400;
 line-height: 26.908px;
 }
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 /* end */
 
 /* about_company */
 .about_company{
     margin-top: 50px;
+}
+.about_company_photo{
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+}
+.about_company_title{
+    color: #373D43;
+font-size: 38px;
+font-style: normal;
+font-weight: 400;
+line-height: 45.6px;
+}
+.about_company_text p {
+    color: #889099;
+font-size: 18px;
+font-style: normal;
+font-weight: 400;
+line-height: 26.908px;
+}
+.about_company_text p:not(:last-child){
+    margin-bottom: 20px;
+}
+.about_company_pos{
+    display: flex;
+    background-color: #fff;
+    margin-bottom: 70px;
+}
+.about_company_info{
+    padding: 70px;
+}
+.about_company_title{
+    margin-bottom: 65px;
 }
